@@ -10,11 +10,12 @@
   <div class="container">
     <h1>Firebase Q&A</h1>
     <div id="askQuestion">
+      <input type="text" id="title" placeholder="Question title">
       <input type="text" id="question" placeholder="What is your question?">
       <button id="ask">Ask Question</button>
     </div>
-    <div id="answerQuestion">
-      <input type="text" id="answer" placeholder="Input your answer for this question">
+    <div class="form-group" id="answerQuestion">
+      <textarea type="text" class="form-control" rows="5" id="answer" placeholder="Input your answer for this question"></textarea>
       <button id="answer">Answer Question</button>
     </div>
     <ul id="questions"></ul>
